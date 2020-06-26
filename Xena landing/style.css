@@ -1,0 +1,96 @@
+html
+{
+    height: 100%;
+}
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://cdn.discordapp.com/attachments/718079235348103209/725705654815162429/fight.png);
+}
+
+nav
+{
+    background-color: #FF1717 ;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    font-size: 1.5em;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    min-width: 10%;
+}
+
+.logo
+{
+    height: 7vh;
+}
+
+nav a
+{
+    padding: 10%;
+}
+
+ul
+{
+    list-style: none;
+    padding-left: 0;
+}
+
+li
+{
+   padding: 10%;
+   text-align: right;
+}
+
+li:hover
+{
+    background-color: #E51616;
+}
+
+.texte
+{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.7em;
+    width: 90%;
+    margin-left: 10%;
+    height: 100vh;
+    font-weight: bold;
+}
+
+.texte p
+{
+    width: 60%;
+    color: #072734;;
+}
+
+p
+{
+    background: rgba(255, 255, 255, 0.6) ;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.bouton
+{
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.7em;
+    border-radius: 100px;
+    padding: 1.2% 2%;
+    width: 10%;
+    margin-top: 2%;
+    text-decoration: none;
+    color: black;
+}

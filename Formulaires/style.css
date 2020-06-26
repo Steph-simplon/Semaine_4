@@ -1,0 +1,32 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #BC9600;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1
+{
+    
+}
+
+div
+{
+    background-color: white;
+    width: 60%;
+    color: black;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+div h2
+{
+
+}
+
+table
+{
+
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <h1>Formulaire d'enquête sur les médias sociaux</h1>
+
+        <div>
+            <p>Veuillez remplir tous les champs</p>
+            <form method="POST" action="fake.php">
+                <table>
+                    <tr>
+                        <td><label for="nom">*nom: </label></td>
+                        <td><input type="text" name="nom" id="nom" placeholder="Votre nom"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mail">* Email: </label></td>
+                        <td><input type="email" name="mail" id="mail" placeholder="Votre Email"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="age">* Age: </label></td>
+                        <td><input type="number" min="1" max="120" name="age" id="age" placeholder="Age"/></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="reseaux">Quelle appliation sur les réseaux sociaux utilisez-vous ?</label></td>
+                        <td><select name="reseaux" id="reseaux" >
+
+                    
+                        <option disabled="" selected="">Select an option</option>
+                        <option value="insta">Instagram</option>
+                        <option value="tiktok">Tik Tok</option>
+                        <option value="fb">Facebook</option>
+                        <option value="snap">Snapchat</option>
+                        </select></td>
+                    </tr>
+
+                    <tr>
+                        <td><p>* Combien d'heures utilisez-vous ?</p></td>
+                        <td><input type="radio" name="0-1h" id="0-1h" value="0-1h"/><label for="0-1h">0-1 heure</label>
+                            <input type="radio" name="1-2h" id="1-2h" value="1-2h"/><label for="1-2h">1-2 heures</label>
+                            <input type="radio" name="2-3h" id="2-3h" value="2-3h"/><label for="2-3h">2-3 heures</label>
+                            <input type="radio" name="3-4h" id="3-4h" value="3-4h"/><label for="3-4h">3-4 heures</label>
+                            <input type="radio" name="4+h" id="4+ h" value="4+h"/><label for="4+ h">4+ heures</label></td>
+                    </tr>
+
+                    <tr>
+                        <td><p>Pourquoi utilisez-vous cette application:</p></td>
+                        <td><input type="checkbox" name="app" id="actu"><label for="actu">Actualités</label>
+                        <input type="checkbox" name="app" id="prof"><label for="prof">Professionnel</label>
+                        <input type="checkbox" name="app" id="voyage"><label for="voyage">Voyages</label>
+                        <input type="checkbox" name="app" id="passetemps"><label for="passetemps">Passe temps</label>
+                        <input type="checkbox" name="app" id="inspi"><label for="inspi">Inspirations</label>
+                        <input type="checkbox" name="app" id="photos"><label for="photos">Photos</label>
+                        <input type="checkbox" name="app" id="videos"><label for="videos">Videos</label></td>
+
+                    </tr>
+
+                    <tr>
+                        <td><p>Des commentaires ou suggestions ?</p></td>
+                        <td><label for="commentaire"></label><textarea name="commentaire" id="commentaire" cols="22" rows="3" placeholder="Mettez vos commentaires"></textarea></td>
+                    </tr>
+
+                </table>
+
+                <input type="submit" value="Envoyer">
+            
+
+            </form>
+
+        </div>
+
+            
+
+        
+        
+
+
+    
+</body>
+</html>
